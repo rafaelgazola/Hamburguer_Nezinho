@@ -1,0 +1,41 @@
+- generic [active] [ref=f24e1]:
+  - banner [ref=f24e2]:
+    - link "🍔 O lancheiro the big nezinho" [ref=f24e3] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f24e4]:
+      - link "Cozinha" [ref=f24e5] [cursor=pointer]:
+        - /url: /cozinha
+      - link "Dono" [ref=f24e6] [cursor=pointer]:
+        - /url: /dono
+  - main [ref=f24e7]:
+    - generic [ref=f24e8]:
+      - paragraph [ref=f24e9]: CARDÁPIO DIGITAL
+      - heading "Monte seu pedido" [level=1] [ref=f24e10]
+      - paragraph [ref=f24e11]: Escolha seus favoritos e envie direto para a cozinha.
+    - generic [ref=f24e12]:
+      - text: Nome ou mesa
+      - textbox "Nome ou mesa" [ref=f24e13]:
+        - /placeholder: "Ex.: Mesa 4"
+      - generic [ref=f24e14]:
+        - article [ref=f24e15]:
+          - heading "Big Nezinho" [level=2] [ref=f24e16]
+          - paragraph [ref=f24e17]: Hambúrguer artesanal, queijo e molho da casa
+          - strong [ref=f24e18]: R$ 28,90
+          - generic [ref=f24e19]:
+            - text: Quantidade
+            - spinbutton "Quantidade" [ref=f24e20]: "0"
+        - article [ref=f24e21]:
+          - heading "Batata Crocante" [level=2] [ref=f24e22]
+          - paragraph [ref=f24e23]: Porção individual com molho especial
+          - strong [ref=f24e24]: R$ 14,00
+          - generic [ref=f24e25]:
+            - text: Quantidade
+            - spinbutton "Quantidade" [ref=f24e26]: "0"
+        - article [ref=f24e27]:
+          - heading "Refrigerante" [level=2] [ref=f24e28]
+          - paragraph [ref=f24e29]: Lata 350 ml
+          - strong [ref=f24e30]: R$ 6,00
+          - generic [ref=f24e31]:
+            - text: Quantidade
+            - spinbutton "Quantidade" [ref=f24e32]: "0"
+      - button "Enviar pedido para a cozinha" [ref=f24e33] [cursor=pointer]

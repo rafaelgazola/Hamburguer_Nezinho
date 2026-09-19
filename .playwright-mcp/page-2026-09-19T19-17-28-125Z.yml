@@ -1,0 +1,21 @@
+- generic [active] [ref=f9e1]:
+  - banner [ref=f9e2]:
+    - link "🍔 O lancheiro the big nezinho" [ref=f9e3] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f9e4]:
+      - link "Cozinha" [ref=f9e5] [cursor=pointer]:
+        - /url: /cozinha
+      - link "Dono" [ref=f9e6] [cursor=pointer]:
+        - /url: /dono
+  - main [ref=f9e7]:
+    - generic [ref=f9e8]:
+      - paragraph [ref=f9e9]: ÁREA RESTRITA
+      - heading "Login do dono" [level=1] [ref=f9e10]
+      - generic [ref=f9e11]:
+        - generic [ref=f9e12]: Senha
+        - textbox "Senha" [ref=f9e13]
+        - button "Entrar" [ref=f9e14] [cursor=pointer]
+      - paragraph [ref=f9e15]: A senha é definida pela variável OWNER_PASSWORD.
+  - contentinfo [ref=f9e16]:
+    - generic [ref=f9e17]: Feito na chapa, servido com atitude.
+    - generic [ref=f9e18]: © O Lancheiro

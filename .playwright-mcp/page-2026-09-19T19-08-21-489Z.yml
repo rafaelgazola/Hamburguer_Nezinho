@@ -1,0 +1,18 @@
+- generic [active] [ref=f31e1]:
+  - banner [ref=f31e2]:
+    - link "🍔 O lancheiro the big nezinho" [ref=f31e3] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f31e4]:
+      - link "Cozinha" [ref=f31e5] [cursor=pointer]:
+        - /url: /cozinha
+      - link "Dono" [ref=f31e6] [cursor=pointer]:
+        - /url: /dono
+  - main [ref=f31e7]:
+    - generic [ref=f31e8]:
+      - paragraph [ref=f31e9]: ÁREA RESTRITA
+      - heading "Login do dono" [level=1] [ref=f31e10]
+      - generic [ref=f31e11]:
+        - generic [ref=f31e12]: Senha
+        - textbox "Senha" [ref=f31e13]
+        - button "Entrar" [ref=f31e14] [cursor=pointer]
+      - paragraph [ref=f31e15]: A senha é definida pela variável OWNER_PASSWORD.

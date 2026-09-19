@@ -1,0 +1,59 @@
+- generic [active] [ref=f26e1]:
+  - banner [ref=f26e2]:
+    - link "🍔 O lancheiro the big nezinho" [ref=f26e3] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f26e4]:
+      - link "Cozinha" [ref=f26e5] [cursor=pointer]:
+        - /url: /cozinha
+      - link "Dono" [ref=f26e6] [cursor=pointer]:
+        - /url: /dono
+  - main [ref=f26e7]:
+    - generic [ref=f26e8]:
+      - paragraph [ref=f26e9]: TELA DA COZINHA
+      - heading "Pedidos recebidos" [level=1] [ref=f26e10]
+      - paragraph [ref=f26e11]: Atualize a página para conferir novos pedidos.
+    - generic [ref=f26e12]:
+      - article [ref=f26e13]:
+        - 'heading "Pedido #6" [level=2] [ref=f26e14]'
+        - paragraph [ref=f26e15]: Mesa valida · 2026-09-19 16:07:34
+        - list [ref=f26e16]:
+          - listitem [ref=f26e17]: 1x Big Nezinho
+        - strong [ref=f26e18]: R$ 28,90
+        - button "Marcar como finalizado" [ref=f26e20] [cursor=pointer]
+      - article [ref=f26e21]:
+        - 'heading "Pedido #5" [level=2] [ref=f26e22]'
+        - paragraph [ref=f26e23]: Mesa 7 · 2026-09-19 16:05:33
+        - list [ref=f26e24]:
+          - listitem [ref=f26e25]: 2x Big Nezinho
+        - strong [ref=f26e26]: R$ 57,80
+        - button "Marcar como finalizado" [ref=f26e28] [cursor=pointer]
+      - article [ref=f26e29]:
+        - 'heading "Pedido #4" [level=2] [ref=f26e30]'
+        - paragraph [ref=f26e31]: ronaldo · 2026-09-19 16:04:58
+        - list [ref=f26e32]:
+          - listitem [ref=f26e33]: 1x Batata Crocante
+        - strong [ref=f26e34]: R$ 14,00
+        - button "Marcar como finalizado" [ref=f26e36] [cursor=pointer]
+      - article [ref=f26e37]:
+        - 'heading "Pedido #3" [level=2] [ref=f26e38]'
+        - paragraph [ref=f26e39]: mesa 05 · 2026-09-19 16:04:42
+        - list [ref=f26e40]:
+          - listitem [ref=f26e41]: 1x Refrigerante
+        - strong [ref=f26e42]: R$ 6,00
+        - button "Marcar como finalizado" [ref=f26e44] [cursor=pointer]
+      - article [ref=f26e45]:
+        - 'heading "Pedido #2" [level=2] [ref=f26e46]'
+        - paragraph [ref=f26e47]: mesa 02 · 2026-09-19 16:04:13
+        - list [ref=f26e48]:
+          - listitem [ref=f26e49]: 1x Big Nezinho
+          - listitem [ref=f26e50]: 2x Batata Crocante
+          - listitem [ref=f26e51]: 1x Refrigerante
+        - strong [ref=f26e52]: R$ 62,90
+        - button "Marcar como finalizado" [ref=f26e54] [cursor=pointer]
+      - article [ref=f26e55]:
+        - 'heading "Pedido #1" [level=2] [ref=f26e56]'
+        - paragraph [ref=f26e57]: Mesa 1 · 2026-09-19 16:01:41
+        - list [ref=f26e58]:
+          - listitem [ref=f26e59]: 1x Big Nezinho
+        - strong [ref=f26e60]: R$ 28,90
+        - button "Marcar como finalizado" [ref=f26e62] [cursor=pointer]

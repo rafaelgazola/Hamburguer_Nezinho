@@ -1,0 +1,38 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - link "🍔 O lancheiro the big nezinho" [ref=f5e3] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f5e4]:
+      - link "Cozinha" [ref=f5e5] [cursor=pointer]:
+        - /url: /cozinha
+      - link "Dono" [ref=f5e6] [cursor=pointer]:
+        - /url: /dono
+  - main [ref=f5e7]:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - paragraph [ref=f5e10]: DASHBOARD DO DONO
+        - heading "Gastos mensais" [level=1] [ref=f5e11]
+      - generic [ref=f5e12]:
+        - text: Mês
+        - textbox "Mês" [ref=f5e13]: 2026-09
+        - button "Consultar" [ref=f5e14] [cursor=pointer]
+    - generic [ref=f5e15]:
+      - text: Total de 2026-09
+      - strong [ref=f5e16]: R$ 1070,00
+    - generic [ref=f5e17]:
+      - text: 🍔
+      - list [ref=f5e18]:
+        - listitem [ref=f5e19]:
+          - generic [ref=f5e20]:
+            - text: Embalagens
+            - generic [ref=f5e21]: 2026-09-10
+          - strong [ref=f5e22]: R$ 220,00
+        - listitem [ref=f5e23]:
+          - generic [ref=f5e24]:
+            - text: Compra de insumos
+            - generic [ref=f5e25]: 2026-09-05
+          - strong [ref=f5e26]: R$ 850,00
+    - button "Sair" [ref=f5e28] [cursor=pointer]
+  - contentinfo [ref=f5e29]:
+    - generic [ref=f5e30]: Feito na chapa, servido com atitude.
+    - generic [ref=f5e31]: © O Lancheiro
