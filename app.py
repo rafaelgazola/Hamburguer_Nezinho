@@ -181,7 +181,7 @@ def login():
     if request.method == "POST":
         configured_password = os.environ.get("OWNER_PASSWORD")
         if not configured_password:
-            flash("Configure OWNER_PASSWORD antes de entrar.", "error")
+            flash("O acesso do dono está indisponível: configure OWNER_PASSWORD nas variáveis do ambiente e tente novamente.", "error")
         elif request.form.get("password") == configured_password:
             session["owner_logged_in"] = True
             return redirect(request.args.get("next") or url_for("dashboard"))
