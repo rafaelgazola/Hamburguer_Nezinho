@@ -1,8 +1,30 @@
+# Segredos e configurações locais
 .env
+.env.*
+!.env.example
+
+# Banco e artefatos de execução locais
+data/*.db
+data/*.db-*
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Python e ambientes virtuais
 __pycache__/
 *.py[cod]
 .venv/
-data/*.db
+venv/
+
+# Caches de ferramentas e cobertura
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Artefatos temporários do Playwright
+.playwright-mcp/
 playwright-report/
 test-results/
